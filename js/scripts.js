@@ -2,20 +2,20 @@ $(document).ready(function() {
   $("form#enter").submit(function(event) {
     event.preventDefault();
 
-    // var suits = ["clubs, diamonds"];
-    var ranks = ["ace", "jack", "queen", "king"];
-    var deck = [];
+    // // var suits = ["clubs, diamonds"];
+    // var ranks = ["ace", "jack", "queen", "king"];
+    // var deck = [];
 
-    ranks.forEach(function(rank) {
-      deck.push(rank + " of ");
-    });
+    // ranks.forEach(function(rank) {
+    //   deck.push(rank + " of ");
+    // });
 
-    deck.forEach(function(card) {
-      console.log(card + "clubs");
-      console.log(card + "diamonds");
-      console.log(card + "spade");
-      console.log(card + "hearts");
-    });
+    // deck.forEach(function(card) {
+    //   console.log(card + "clubs");
+    //   console.log(card + "diamonds");
+    //   console.log(card + "spade");
+    //   console.log(card + "hearts");
+    // });
 
     var input = $("input#wordplay").val();
     var array = input.split(" ");
